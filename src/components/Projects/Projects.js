@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="Order Your Meal"
               description="A website to simplify choosing your meals, based on react.js and bootstrap and more technologies."
-              link="https://github.com/KhaoulaElma/OrderYourMeal"
+              link="https://github.com/Khaoula866/WebSite-React"
             />
           </Col>
 
