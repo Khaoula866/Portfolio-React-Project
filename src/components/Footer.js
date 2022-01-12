@@ -23,9 +23,9 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/KhaoulaElma"
+                href="https://github.com/Khaoula866"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -33,9 +33,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/LeLa_KE_88"
+                href="https://twitter.com/KhaOula66595432"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -43,9 +43,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/khaoula-el-mansouri-b953a9205/"
+                href="https://www.linkedin.com/in/khaoula-a-4341671a5/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -53,9 +53,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/khaoula_e88/"
+                href="https://www.instagram.com/khaoulaell19/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

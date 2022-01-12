@@ -9,11 +9,9 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink1 =
-  pdf1;
+const resumeLink1 = pdf1;
 
-  const resumeLink2 =
-  pdf2;
+const resumeLink2 = pdf2;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -29,7 +27,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf1} target="_blank">
             <AiOutlineDownload />
-            &nbsp;Download CV Khaoula EL Mansouri
+            &nbsp;Download CV Khaoula EL MANSOURI
           </Button>
         </Row>
 
@@ -42,7 +40,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf2} target="_blank">
             <AiOutlineDownload />
-            &nbsp;Download CV Khaoula Aissaoui
+            &nbsp;Download CV Khaoula AISSAOUI
           </Button>
         </Row>
         <Row className="resume">

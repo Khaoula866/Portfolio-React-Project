@@ -70,7 +70,7 @@ function Projects() {
               isBlog={false}
               title="Portfolio"
               description="Our personal potfolio page build with React.js and Bootstrap which takes the content from makdown files and renders it using React.js."
-              link="https://github.com/KhaoulaElma/PotfolioReact"
+              link="https://github.com/Khaoula866/Portfolio-React-Project"
             />
           </Col>
 
@@ -80,7 +80,7 @@ function Projects() {
               isBlog={false}
               title="To Do Liste"
               description="A simple platform wher you can add all your tasks. This platform helps you to organise all your tasks easily."
-              link="https://github.com/KhaoulaElma/ToDoListe"
+              link="https://github.com/Khaoula866/ToDoList-Application-React"
             />
           </Col>
         </Row>
