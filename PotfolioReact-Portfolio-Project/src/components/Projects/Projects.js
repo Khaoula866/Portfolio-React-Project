@@ -16,11 +16,11 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Our Recent <strong className="purple">Works </strong>
-        </h1>
+          Our Recent <strong className="purple"> Works </strong>{" "}
+        </h1>{" "}
         <p style={{ color: "white" }}>
-          Here are a few projects We've worked on recently.
-        </p>
+          Here are a few projects We 've worked on recently.{" "}
+        </p>{" "}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -28,11 +28,12 @@ function Projects() {
               isBlog={false}
               title="KO-Education"
               description=" KO-Education is a webSite for the parents to make sure that thier children are having a healthy mentality, and training them to be good parents.
-              by offering so many services for the kids and thier parents."
-              link="https://github.com/KhaoulaElma/KOEducation"
+        by offering so many services
+        for the kids and thier parents.
+        "
+              link="https://koeducation.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={KhaoulaP}
@@ -42,18 +43,16 @@ function Projects() {
               link="https://khaoula866.github.io/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Decathling}
               isBlog={false}
               title="DecathlingBOK"
               description="A website for Decathlon to manage thier planing.
-              Based on MVC .Net"
+        Based on MVC.Net "
               link="https://github.com/KhaoulaElma/DecathlingBOK"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Meal}
@@ -63,7 +62,6 @@ function Projects() {
               link="https://github.com/KhaoulaElma/OrderYourMeal"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
@@ -73,7 +71,6 @@ function Projects() {
               link="https://github.com/KhaoulaElma/PotfolioReact"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}
@@ -82,9 +79,9 @@ function Projects() {
               description="A simple platform wher you can add all your tasks. This platform helps you to organise all your tasks easily."
               link="https://github.com/KhaoulaElma/ToDoListe"
             />
-          </Col>
-        </Row>
-      </Container>
+          </Col>{" "}
+        </Row>{" "}
+      </Container>{" "}
     </Container>
   );
 }
